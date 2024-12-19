@@ -68,9 +68,9 @@ header{
     transition: 1s;
 }
 
-.manual-btn:hover{
+/* .manual-btn:hover{
     background-color: #fff;
-}
+} */
 
 #radio1:checked ~ .first{
     margin-left: 0;
