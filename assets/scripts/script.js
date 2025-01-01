@@ -16,8 +16,7 @@ const render = (ano, meses, dias, horas, minutos, segundos)=>{
 
 const countdown = ()=>{
     const now = new Date()
-    const anoCerto = now.getFullYear() + 2
-    const targetDate = new Date(anoCerto, 4, 16)
+    const targetDate = new Date(2026, 4, 16)
 
     const timeLeft = targetDate - now
 
@@ -64,7 +63,6 @@ const render2 = (ano2, meses2, dias2, horas2, minutos2, segundos2)=>{
 
 const countdown2 = ()=>{
     const now2 = new Date(2023, 7, 15)
-    const anoCerto2 = now2.getFullYear() + 2
     const targetDate2 = new Date()
 
     const timeLeft2 = targetDate2 - now2
