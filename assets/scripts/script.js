@@ -105,7 +105,7 @@ setInterval( function(){
 
 function nextImage(){
     count++
-    if(count > 10){
+    if(count > 11){
         count = 1
     }
 
